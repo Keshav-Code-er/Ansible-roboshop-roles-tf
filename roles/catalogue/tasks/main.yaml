@@ -2,7 +2,7 @@
 
 - name: print the app-version
   debug:
-   msg: "App version is : {{app_version}}"
+   msg: "App version is : {{App_version}}"
 
 - name: Install NodeJs
   ansible.builtin.import_role:
