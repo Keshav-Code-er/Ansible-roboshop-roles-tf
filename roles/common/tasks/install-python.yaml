@@ -1,4 +1,4 @@
-- name: Install Python 3.6
+- name: Install Python 3.11.7 
   ansible.builtin.yum:
     name: "{{item}}"
     state: installed
