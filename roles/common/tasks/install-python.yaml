@@ -1,10 +1,8 @@
 - name: Install Python 3.6
-  ansible.builtin.yum:
+  ansible.builtin.dnf:
     name: "{{item}}"
     state: installed
   loop:
   - python36
   - gcc 
   - python3-devel
-
-  
