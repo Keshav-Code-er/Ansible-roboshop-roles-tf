@@ -28,3 +28,7 @@ rabbitmq.joindevops.shop
 [shipping]
 shipping.joindevops.shop
 
+[localhost]
+localhost ansible_python_interpreter=/usr/bin/python3.11
+
+
