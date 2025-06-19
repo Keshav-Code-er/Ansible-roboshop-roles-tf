@@ -7,6 +7,4 @@
   - gcc 
   - python3-devel
 
-  - hosts: all
-  vars:
-    ansible_python_interpreter: /usr/libexec/platform-python
+  
