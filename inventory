@@ -27,3 +27,6 @@ rabbitmq.joindevops.shop
 
 [shipping]
 shipping.joindevops.shop
+
+[all:vars]
+ansible_python_interpreter=/usr/libexec/platform-python
